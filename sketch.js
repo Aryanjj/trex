@@ -89,7 +89,7 @@ function draw() {
       ground.x = ground.width/2;
     }
   
-    trex.collide(invisibleGround);
+    trex.collide(ground);
     spawnClouds();
     spawnObstacles();
   
